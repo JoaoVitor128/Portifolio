@@ -9,7 +9,7 @@ header {
   flex-direction: row;
   gap: 15px;
 
-  width: 1866px;
+  width: 100%;
   background-color: rgb(68, 22, 110);
   padding: 10px 0;
 
@@ -56,6 +56,7 @@ article {
 .principal {
   display: flex;
   flex-direction: row;
+  padding: 0 240px;
 }
 
 
@@ -66,13 +67,45 @@ article {
   padding: 10px;
 }
 
-.projects article{
+.projects article {
   display: flex;
   flex-direction: row;
   gap: 15px;
 }
 
-.projects img{
+.projects img {
   width: 130px;
   height: 130px;
+}
+
+@media (width <=1315px) {
+  .principal {
+    flex-direction: column;
+  }
+}
+
+@media (width <=685px) {
+  * {
+    overflow-wrap: break-word;
+  }
+
+  .text article {
+    width: 680px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (width <=650px) {
+  p{
+    overflow-x: scroll;
+  }
+  .projects article {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
