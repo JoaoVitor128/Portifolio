@@ -1,6 +1,5 @@
 * {
   text-align: center;
-  overflow-x: hidden
 }
 
 
@@ -62,7 +61,7 @@ article {
 
 .project {
   border: 2px solid #ccc;
-  width: 40%px;
+  width: 40%;
   border-radius: 20%;
 }
 
