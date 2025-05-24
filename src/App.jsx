@@ -57,7 +57,7 @@ function App() {
           <article>
             <Project title="Starbucks" img={starbucks} desc={"Um site que fiz no inicio dos meus estudos, onde criei um site do starbucks."} link={"https://joaovitor128.github.io/Starbucks/"} />
             <Project title="Jhoo Elétrica" img={eletrica} desc={"Apenas meu MELHOR site, uma landing page de um grupo de eletricistas."} link={"https://joaovitor128.github.io/jhooEletrica/"} />
-            <Project title="Gerador de Senhas" img={pass} desc={"Um site onde você pode criar uma senhas."} link={"https://joaovitor128.github.io/GeradorDeSenhas/"} />
+            <Project title="Gerador de Senhas" img={pass} desc={"Um site onde você pode criar uma senhas."} link={"https://joaovitor128.github.io/GeradorSenha/"} />
           </article>
           <article>
             <Project title="Gerador de QR Code" img={qrCode} desc={"Um site onde você pode criar um QR Code para seu site."} link={"https://joaovitor128.github.io/GeradorDeQRCode/"} />
