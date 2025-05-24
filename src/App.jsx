@@ -10,6 +10,8 @@ import eletrica from "./assets/eletrica.webp"
 import qrCode from "./assets/qrCode.webp"
 import pass from "./assets/pass.webp"
 
+import julianaBarbosa from "./assets/Clientes/julianaBarbosa.webp"
+
 import Project from "./Component/Project"
 
 function App() {
@@ -42,7 +44,7 @@ function App() {
           </article>
           <article>
             <h2>Entre em contato.</h2>
-            <h2><a href="https://bit.ly/43j6AXZ" target="_blank"><i class="fa-brands fa-whatsapp"></i> - Whatsapp</a></h2>       
+            <h2><a href="https://bit.ly/43j6AXZ" target="_blank"><i class="fa-brands fa-whatsapp"></i> - Whatsapp</a></h2>
           </article>
         </section>
         <section className='projects'>
@@ -50,17 +52,21 @@ function App() {
           <article>
             <Project title="HDc-Host" img={hdcHost} desc={"Uma landing page de um site de hospedagem."} link={"https://joaovitor128.github.io/hDC-Host/"} />
             <Project title="To Do List" img={toDoList} desc={"Um site para organizar suas tarefas."} link={"https://joaovitor128.github.io/ToDoList/"} />
-          </article>
-          <article>
             <Project title="Dev Notes" img={devNotes} desc={"Um site para organizar suas tarefas."} link={"https://joaovitor128.github.io/DevNotes/"} />
-            <Project title="Starbucks" img={starbucks} desc={"Um site que fiz no inicio dos meus estudos, onde criei um site do starbucks."} link={"https://joaovitor128.github.io/starbucks/"} />
           </article>
           <article>
+            <Project title="Starbucks" img={starbucks} desc={"Um site que fiz no inicio dos meus estudos, onde criei um site do starbucks."} link={"https://joaovitor128.github.io/Starbucks/"} />
             <Project title="Jhoo Elétrica" img={eletrica} desc={"Apenas meu MELHOR site, uma landing page de um grupo de eletricistas."} link={"https://joaovitor128.github.io/jhooEletrica/"} />
             <Project title="Gerador de Senhas" img={pass} desc={"Um site onde você pode criar uma senhas."} link={"https://joaovitor128.github.io/GeradorDeSenhas/"} />
           </article>
           <article>
-          <Project title="Gerador de QR Code" img={qrCode} desc={"Um site onde você pode criar um QR Code para seu site."} link={"https://joaovitor128.github.io/GeradorDeQRCode/"} />
+            <Project title="Gerador de QR Code" img={qrCode} desc={"Um site onde você pode criar um QR Code para seu site."} link={"https://joaovitor128.github.io/GeradorDeQRCode/"} />
+          </article>
+        </section>
+        <section className='projects'>
+          <h2>Site de Clientes.</h2>
+          <article>
+            <Project title="Juliana Barbosa Nails" img={julianaBarbosa} desc={"Um site de uma nail designer."} link={"https://juliana-barbosa.vercel.app"} />
           </article>
         </section>
       </div>
