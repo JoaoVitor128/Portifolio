@@ -56,9 +56,8 @@ function App() {
             <Project className="project" title="Gerador de QR Code" img={qrCode} desc={"Um site onde você pode criar um QR Code para seu site."} link={"https://joaovitor128.github.io/GeradorDeQRCode/"} />
             <Project className="project" title="Camp Simulator" img={vcm} desc={"Um site onde você pode simular de forma aleatorias campeonatos como Libertadores, Champios League, Copa de Mundo e Brasileirão"} link={"https://camp-simuler.netlify.app"} />
         </section>
-        <section className='projects'>
           <h2>Site de Clientes.</h2>
-          
+        <section className='projects'>
             <Project  className="project" title="Juliana Barbosa Nails" img={julianaBarbosa} desc={"Um site de uma nail designer."} link={"https://juliana-barbosa.vercel.app"} />
         </section>
       </div>
